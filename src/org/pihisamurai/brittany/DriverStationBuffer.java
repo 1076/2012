@@ -10,7 +10,7 @@ import edu.wpi.first.wpilibj.camera.AxisCamera;
 
 /**
  *
- * @author Daniel
+ * @author Mike
  */
 public class DriverStationBuffer {
 
@@ -27,11 +27,6 @@ public class DriverStationBuffer {
 
     DriverStationBuffer() {
         lcd = DriverStationLCD.getInstance();
-        //camera = AxisCamera.getInstance();
-
-        //camera.writeResolution(AxisCamera.ResolutionT.k640x480);
-        //camera.writeMaxFPS(CAMERA_MAX_FPS);
-        //camera.writeCompression(CAMERA_COMPRESSION);
     }
 
     void println(String line) {
