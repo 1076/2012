@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package org.pihisamurai.brittany;
 
 import edu.wpi.first.wpilibj.DriverStationLCD;
@@ -13,11 +9,6 @@ import edu.wpi.first.wpilibj.camera.AxisCamera;
  * @author Mike
  */
 public class DriverStationBuffer {
-
-    private int CAMERA_MAX_FPS = 5;
-    private int CAMERA_COMPRESSION = 0;
-    private AxisCamera.ResolutionT CAMERA_RES =
-            AxisCamera.ResolutionT.k640x480;
     DriverStationLCD lcd;
     AxisCamera camera;
     String line2 = "", line3 = "", line4 = "", line5 = "", line6 = "";
