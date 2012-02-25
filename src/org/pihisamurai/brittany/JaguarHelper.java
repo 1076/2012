@@ -10,7 +10,7 @@ import edu.wpi.first.wpilibj.DigitalOutput;
 
 /**
  *
- * @author Daniel
+ * @author Mike
  */
 public class JaguarHelper {
 
